@@ -296,13 +296,7 @@ a {
 }
 
 #peta-container svg path {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-#peta-container svg path {
-    fill: var(--primary);
+    fill: var(--primary) !important;
     opacity: 0.6;
     stroke: #FFFFFF;
     stroke-width: 0.5;
@@ -310,9 +304,9 @@ a {
     transition: opacity 0.2s, fill 0.2s;
 }
 
-#peta.container svg path::hover {
-    opacity: 1;
-    fill: var(--accent);
+#peta.container svg path:hover {
+    opacity: 1 !important;
+    fill: var(--accent) !important;
 }
 
 .peta-placeholder {
