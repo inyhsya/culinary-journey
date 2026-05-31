@@ -295,6 +295,26 @@ a {
     border: 1.5px dashed rgba(0, 0, 0, 0.1);
 }
 
+#peta-container svg path {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#peta-container svg path {
+    fill: var(--primary);
+    opacity: 0.6;
+    stroke: #FFFFFF;
+    stroke-width: 0.5;
+    cursor: pointer;
+    transition: opacity 0.2s, fill 0.2s;
+}
+
+#peta.container svg path::hover {
+    opacity: 1;
+    fill: var(--accent);
+}
+
 .peta-placeholder {
     color: var(--text-muted);
     font-size: 1.1rem;
