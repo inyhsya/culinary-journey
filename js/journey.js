@@ -539,7 +539,3 @@ document.querySelectorAll('#peta-container svg path').forEach(path => {
     });
 });
 
-function bukaModal(wilayah) {
-    console.log('Klik wilayah : ', wilayah);
-}
-

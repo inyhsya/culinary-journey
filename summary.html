@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perjalananmu — RasaNusa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">RasaNusa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="wawasan.html">Wawasan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tentang-kami.html">Tentang Kami</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SUMMARY -->
+    <main id="summary-page">
+        <div class="container">
+
+            <!-- Header -->
+            <div class="summary-header text-center">
+                <span class="hero-tag">Perjalanan Selesai!</span>
+                <h1>Inilah Perjalananmu!</h1>
+                <p class="hero-desc">Kamu telah merangkai menu kuliner Nusantara yang unik</p>
+            </div>
+
+            <!-- 3 Slot hasil -->
+            <div class="summary-slots">
+
+                <div class="summary-slot" id="summary-appetizer">
+                    <div class="summary-slot-course">1 · Appetizer</div>
+                        <div class="summary-slot-img-wrap">
+                            <img id="summary-foto-appetizer" src="" alt="">
+                        </div>
+                        <div class="summary-slot-info">
+                            <h3 id="summary-nama-appetizer">—</h3>
+                            <p id="summary-wilayah-appetizer">—</p>
+                        </div>
+                    </div>
+
+                    <div class="summary-arrow">›</div>
+
+                    <div class="summary-slot" id="summary-main">
+                    <div class="summary-slot-course">2 · Main Course</div>
+                    <div class="summary-slot-img-wrap">
+                        <img id="summary-foto-main" src="" alt="">
+                    </div>
+                    <div class="summary-slot-info">
+                        <h3 id="summary-nama-main">—</h3>
+                        <p id="summary-wilayah-main">—</p>
+                    </div>
+                </div>
+
+                <div class="summary-arrow">›</div>
+
+                <div class="summary-slot" id="summary-dessert">
+                    <div class="summary-slot-course">3 · Dessert</div>
+                    <div class="summary-slot-img-wrap">
+                        <img id="summary-foto-dessert" src="" alt="">
+                    </div>
+                    <div class="summary-slot-info">
+                        <h3 id="summary-nama-dessert">—</h3>
+                        <p id="summary-wilayah-dessert">—</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tombol -->
+            <div class="summary-actions text-center">
+                <button class="btn-ulangi" onclick="ulangiPerjalanan()">← Ulangi</button>
+                <a href="index.html" class="btn-hero">Kembali ke Beranda</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container text-center">
+            <p class="footer-brand">RasaNusa</p>
+            <p class="footer-team">Ney - Dobies - Harun</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const namaWilayah = {
+            'sumatra': 'Sumatra',
+            'jawa': 'Jawa',
+            'kalimantan': 'Kalimantan',
+            'sulawesi': 'Sulawesi',
+            'bali-ntt': 'Bali & Nusa Tenggara',
+            'maluku-papua': 'Maluku & Papua'
+        };
+
+        ['appetizer', 'main', 'dessert'].forEach(course => {
+            const data = localStorage.getItem(`slot-${course}`);
+            if (data) {
+                const parsed = JSON.parse(data);
+                document.getElementById(`summary-nama-${course}`).textContent = parsed.nama;
+                document.getElementById(`summary-wilayah-${course}`).textContent = namaWilayah[parsed.wilayah] || parsed.wilayah;
+                document.getElementById(`summary-foto-${course}`).src = parsed.foto;
+                document.getElementById(`summary-foto-${course}`).alt = parsed.nama;
+                document.getElementById(`summary-${course}`).classList.add('filled');
+            }
+        });
+
+        function ulangiPerjalanan() {
+            localStorage.removeItem('slot-appetizer');
+            localStorage.removeItem('slot-main');
+            localStorage.removeItem('slot-dessert');
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

@@ -222,7 +222,7 @@ a {
 }
 
 .modal-overlay.active {
-    display: flex;
+    display: flex !important;
 }
 
 .modal-box {
