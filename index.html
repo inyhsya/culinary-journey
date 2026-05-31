@@ -16,6 +16,62 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
+<!-- MODAL HIDANGAN -->
+<div id="modal-overlay" class="modal-overlay">
+    <div class="modal-box">
+        <!-- Tombol tutup -->
+        <button class="modal-close" onclick="tutupModal()">✕</button>
+        
+        <!-- Header wilayah -->
+        <div class="modal-header">
+            <h2 id="modal-wilayah">Nama Wilayah</h2>
+        </div>
+
+        <!-- Konten -->
+        <div class="modal-content">
+        
+            <!-- Kiri: foto + nama + asal -->
+            <div class="modal-left">
+                <button class="modal-nav modal-prev" onclick="prevHidangan()">‹</button>
+                <div class="modal-foto-wrap">
+                    <img id="modal-foto" src="" alt="Foto hidangan">
+                    <div class="modal-nama-wrap">
+                        <h3 id="modal-nama">Nama Hidangan</h3>
+                        <p id="modal-asal">Asal Daerah</p>
+                    </div>
+                </div>
+                <button class="modal-nav modal-next" onclick="nextHidangan()">›</button>
+            </div>
+
+            <!-- Kanan: detail -->
+            <div class="modal-right">
+                <div class="modal-section">
+                    <h4>Deskripsi</h4>
+                    <p id="modal-deskripsi"></p>
+                </div>
+                <div class="modal-section">
+                    <h4>Fakta Unik</h4>
+                    <p id="modal-fakta"></p>
+                </div>
+                <div class="modal-section">
+                    <h4>Bahan Utama</h4>
+                    <p id="modal-bahan"></p>
+                </div>
+
+                <!-- Course indicator -->
+                <div class="modal-course-tabs">
+                    <button class="course-tab active" onclick="setCourse('appetizer')">Appetizer</button>
+                    <button class="course-tab" onclick="setCourse('mainCourse')">Main Course</button>
+                    <button class="course-tab" onclick="setCourse('dessert')">Dessert</button>
+                </div>
+                <button class="btn-tambahkan" onclick="tambahkanHidangan()">
+                    Tambahkan ke Perjalanan
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg" id="navbar">

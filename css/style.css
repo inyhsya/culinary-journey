@@ -208,6 +208,183 @@ a {
     transform: translateY(-2px);
 }
 
+/* MODAL */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-box {
+    background: var(--surface);
+    border-radius: var(--radius);
+    width: 100%;
+    max-width: 860px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 32px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 16px; right: 16px;
+    background: var(--bg);
+    border: none;
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--text);
+    transition: background 0.2s;
+}
+
+.modal-close:hover {
+    background: var(--border);
+}
+
+.modal-header {
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1.5px solid var(--border);
+}
+
+.modal-header h2 {
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+.modal-content {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 28px;
+    align-items: start;
+}
+
+.modal-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.modal-foto-wrap {
+    flex: 1;
+}
+
+.modal-foto-wrap img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    background: var(--bg);
+}
+
+.modal-nama-wrap {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.modal-nama-wrap h3 {
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+}
+
+.modal-nama-wrap p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.modal-nav {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--text);
+    flex-shrink: 0;
+    transition: background 0.2s;
+}
+
+.modal-nav:hover {
+    background: var(--primary);
+    color: var(--surface);
+    border-color: var(--primary);
+}
+
+.modal-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.modal-section h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 6px;
+}
+
+.modal-section p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.modal-course-tabs {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.course-tab {
+    padding: 6px 14px;
+    border-radius: 99px;
+    border: 1.5px solid var(--border);
+    background: transparent;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: all 0.2s;
+}
+
+.course-tab.active {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: var(--surface);
+}
+
+.btn-tambahkan {
+    background: var(--primary);
+    color: var(--surface);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 99px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    width: 100%;
+}
+
+.btn-tambahkan:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
 /* JOURNEY BAR */
 #journey-bar {
     background: var(--text);
@@ -302,11 +479,6 @@ a {
     stroke-width: 0.5;
     cursor: pointer;
     transition: opacity 0.2s, fill 0.2s;
-}
-
-#peta.container svg path:hover {
-    opacity: 1 !important;
-    fill: var(--accent) !important;
 }
 
 .peta-placeholder {
