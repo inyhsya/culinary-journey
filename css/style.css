@@ -233,7 +233,8 @@ a {
     max-height: 90vh;
     overflow-y: auto;
     position: relative;
-    padding: 24px;
+    padding: 24px 28px;
+    padding-top: 32px;
 }
 
 .modal-close {
@@ -254,8 +255,8 @@ a {
 }
 
 .modal-header {
-    margin-bottom: 24px;
-    padding-bottom: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
     border-bottom: 1.5px solid var(--border);
 }
 
@@ -461,7 +462,7 @@ a {
 /* PETA */
 #peta {
     padding: 40px 0;
-    scroll-margin-top: 80px;
+    scroll-margin-top: 200px;
 }
 
 #peta h2 {
