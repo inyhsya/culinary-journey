@@ -846,6 +846,146 @@ a {
     margin: 32px 0 12px;
 }
 
+/* TENTANG PAGE */
+#tentang-page {
+    padding: 80px 0;
+}
+
+.tentang-website {
+    max-width: 700px;
+    margin: 0 auto 64px;
+}
+
+.tentang-website h2 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+}
+
+.tentang-website p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.tim-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tim-card {
+    background: var(--surface);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.tim-card:hover {
+    transform: translateY(-4px);
+}
+
+.tim-foto-wrap img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: top;
+    background: var(--bg);
+    display: block;
+}
+
+.tim-info {
+    padding: 20px 16px;
+}
+
+.tim-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+
+.tim-nim {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 2px;
+}
+
+.tim-kelas {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+}
+
+.tim-role {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--primary);
+    background: rgba(201,106,43,0.1);
+    padding: 3px 12px;
+    border-radius: 99px;
+    display: inline-block;
+}
+
+/* Responsive tim */
+@media (max-width: 768px) {
+    .tim-grid {
+        grid-template-columns: 1fr;
+        max-width: 360px;
+    }
+}
+
+/* FAQ PAGE */
+#faq-page {
+    padding: 80px 0;
+}
+
+.faq-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border: 0.5px solid var(--border) !important;
+    border-radius: var(--radius) !important;
+    margin-bottom: 12px;
+    overflow: hidden;
+    background: var(--surface);
+}
+
+.faq-btn {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text) !important;
+    background: var(--surface) !important;
+    padding: 18px 24px;
+    box-shadow: none !important;
+}
+
+.faq-btn:not(.collapsed) {
+    color: var(--primary) !important;
+    background: var(--surface) !important;
+}
+
+.faq-btn::after {
+    filter: none;
+}
+
+.faq-btn:not(.collapsed)::after {
+    filter: none;
+}
+
+.faq-body {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+    padding: 0 24px 20px;
+    border-top: 0.5px solid var(--border);
+    }
+
 /* FOOTER */
 #footer {
     background: var(--text);

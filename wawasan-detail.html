@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel — RasaNusa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">RasaNusa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="wawasan.html">Wawasan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tentang-kami.html">Tentang Kami</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ARTIKEL -->
+    <main id="artikel-page">
+        <div class="container">
+            <div class="artikel-wrap">
+                <a href="wawasan.html" class="btn-kembali">← Kembali</a>
+                <div id="artikel-content">
+                <!-- Diisi JavaScript -->
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container text-center">
+            <p class="footer-brand">RasaNusa</p>
+            <p class="footer-team">Ney - Dobies - Harun</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    const artikel = {
+        1: {
+            tag: 'Sejarah',
+            judul: 'Rendang: Dari Bekal Perjalanan Hingga Makanan Terenak Dunia',
+            isi: `
+            <p>Rendang adalah salah satu masakan paling terkenal dari Indonesia, bahkan dunia. Dinobatkan oleh CNN sebagai makanan terenak di dunia pada 2017, rendang bukan sekadar hidangan lezat — ia adalah cerminan filosofi hidup masyarakat Minangkabau yang penuh makna dan kebijaksanaan.</p>
+            <h3>Asal Usul yang Kaya Sejarah</h3>
+            <p>Rendang berasal dari tradisi merantau masyarakat Minangkabau di Sumatera Barat. Jauh sebelum era kulkas dan pengawet makanan modern, para perantau Minang membutuhkan bekal yang tahan lama untuk perjalanan jauh. Maka lahirlah teknik memasak rendang — proses panjang memasak daging sapi dengan santan dan rempah selama berjam-jam hingga semua cairan mengering dan bumbu meresap sempurna.</p>
+            <p>Teknik pengeringan ini bukan hanya soal rasa, tapi juga soal ketahanan. Rendang kering yang dimasak dengan benar bisa bertahan berminggu-minggu bahkan berbulan-bulan tanpa kulkas — sebuah keajaiban kuliner yang lahir dari kebutuhan praktis.</p>
+            <h3>Filosofi di Balik Rempah</h3>
+            <p>Dalam filosofi Minangkabau, setiap bahan rendang memiliki makna simbolis. Daging melambangkan pemimpin atau ninik mamak (pemimpin adat). Santan melambangkan cendekiawan atau kaum intelektual. Cabai melambangkan alim ulama atau pemuka agama. Campuran rempah lainnya melambangkan rakyat biasa.</p>
+            <p>Proses memasak rendang yang panjang dan sabar pun melambangkan musyawarah dan kesabaran dalam menghadapi kehidupan — nilai-nilai inti masyarakat Minangkabau yang demokratis.</p>
+            <h3>Dari Nusantara ke Dunia</h3>
+            <p>Seiring dengan migrasi masyarakat Minangkabau ke seluruh penjuru Nusantara dan dunia, rendang pun menyebar. Warung Padang ditemukan di hampir setiap kota di Indonesia, dan kini rendang telah hadir di restoran-restoran fine dining dari London hingga Tokyo.</p>
+            <p>Pengakuan internasional terus datang. Selain dinobatkan CNN, rendang juga masuk dalam daftar warisan budaya tak benda UNESCO sebagai bagian dari budaya kuliner Indonesia yang perlu dilestarikan.</p>
+            `
+        },
+
+        2: {
+            tag: 'Budaya',
+            judul: 'Jalur Rempah: Bagaimana Perdagangan Dunia Membentuk Kuliner Nusantara',
+            isi: `
+            <p>Selama berabad-abad sebelum era modern, kepulauan Nusantara adalah magnet bagi pedagang dari seluruh penjuru dunia. Alasannya sederhana namun dahsyat: rempah-rempah. Cengkeh, pala, lada, dan kayu manis yang tumbuh subur di kepulauan ini bernilai lebih mahal dari emas di pasar-pasar Eropa.</p>
+            <h3>Ketika Dunia Datang ke Nusantara</h3>
+            <p>Jauh sebelum Vasco da Gama atau Columbus, pedagang Arab dan India sudah berlayar ke Nusantara untuk membeli rempah. Mereka tidak hanya membawa barang dagangan, tapi juga membawa budaya, agama, dan tentu saja — kuliner. Pengaruh masakan Arab terlihat jelas dalam penggunaan rempah seperti jintan, kapulaga, dan kayu manis dalam masakan Aceh dan Sumatra umumnya.</p>
+            <p>Pedagang Tionghoa yang datang sejak abad ke-7 pun meninggalkan jejak yang tak terhapuskan. Lumpia Semarang, bakmi, dan berbagai teknik memasak menggunakan wajan berasal dari tradisi kuliner Tionghoa yang berpadu dengan bahan-bahan lokal Nusantara.</p>
+            <h3>Warisan yang Hidup di Meja Makan</h3>
+            <p>Kekayaan kuliner Nusantara yang kita nikmati hari ini adalah hasil dari ribuan tahun perpaduan budaya yang damai dan organik. Setiap suapan mie Aceh menyimpan cerita pedagang Arab yang singgah di pelabuhan Banda Aceh. Setiap gigitan lumpia Semarang mengandung kisah cinta lintas budaya antara Tionghoa dan Jawa.</p>
+            <p>Inilah keindahan kuliner Nusantara — ia bukan milik satu bangsa atau satu budaya, melainkan hasil percakapan panjang antara peradaban-peradaban yang bertemu di titik paling strategis perdagangan dunia.</p>
+            `
+        },
+
+        3: {
+            tag: 'Tradisi',
+            judul: 'Sagu: Makanan Pokok yang Menyimpan Kearifan Lokal Papua dan Maluku',
+            isi: `
+            <p>Di saat sebagian besar Indonesia mengenal nasi sebagai makanan pokok, masyarakat Papua dan Maluku telah hidup berdampingan dengan sagu selama ribuan tahun. Pohon sagu bukan sekadar tanaman — ia adalah sumber kehidupan, simbol budaya, dan cerminan kearifan lokal yang luar biasa.</p>
+            <h3>Pohon Kehidupan</h3>
+            <p>Satu pohon sagu dewasa dapat menghasilkan 150-300 kilogram pati sagu yang cukup untuk memberi makan satu keluarga selama berbulan-bulan. Tidak seperti padi yang harus ditanam ulang setiap musim, pohon sagu tumbuh sendiri di rawa-rawa dan tepi sungai, membutuhkan hampir nol perawatan dari manusia.</p>
+            <p>Masyarakat adat Papua memiliki pengetahuan mendalam tentang ekosistem sagu — kapan pohon siap dipanen, bagaimana memprosesnya, dan bagaimana menjaga keberlanjutan hutan sagu. Pengetahuan ini diwariskan turun-temurun dan merupakan bentuk kearifan ekologis yang jauh lebih canggih dari yang terlihat.</p>
+            <h3>Papeda: Lebih dari Sekadar Makanan</h3>
+            <p>Papeda — bubur sagu yang lengket dan transparan — bukan hanya makanan, tapi ritual sosial. Dalam tradisi Papua, makan papeda bersama keluarga dari satu wadah besar adalah simbol kebersamaan dan kesetaraan. Tidak ada yang lebih tinggi atau lebih rendah di meja makan papeda.</p>
+            <p>Cara makan papeda pun unik — karena teksturnya yang sangat licin, papeda tidak dikunyah melainkan ditelan langsung. Ini bukan kekurangan, melainkan keistimewaan yang membuat papeda berbeda dari makanan pokok manapun di dunia.</p>
+            `
+        },
+
+        4: {
+            tag: 'Unik',
+            judul: '5 Kuliner Nusantara yang Punya Teknik Memasak Paling Unik di Dunia',
+            isi: `
+            <p>Kuliner Indonesia tidak hanya unggul dalam rasa, tapi juga dalam teknik. Beberapa hidangan Nusantara menggunakan metode memasak yang begitu inovatif dan unik sehingga tidak ditemukan di tempat lain di dunia. Ini adalah 5 di antaranya.</p>
+            <h3>1. Ayam Betutu Bali — Dimasak dalam Sekam Padi</h3>
+            <p>Dalam versi tradisionalnya, ayam betutu tidak dipanggang di oven atau di atas kompor. Ayam yang sudah diberi bumbu dan dibungkus daun pisang dikubur di dalam sekam padi yang membara selama 8-12 jam. Panas dari sekam yang membara secara perlahan memasak ayam dari semua arah sekaligus, menghasilkan daging yang sangat lembut dan bumbu yang meresap hingga ke tulang.</p>
+            <h3>2. Naniura Batak — Dimasak dengan Asam</h3>
+            <p>Naniura adalah "sashimi" versi Batak — ikan mas segar yang dimasak bukan dengan panas, melainkan dengan keasaman jeruk jungga selama 4-6 jam. Proses denaturasi protein oleh asam mengubah tekstur ikan mentah menjadi matang secara kimiawi, sebuah teknik yang secara ilmiah identik dengan proses ceviche Amerika Latin yang ditemukan jauh setelah naniura ada.</p>
+            <h3>3. Rendang — Memasak hingga Kering</h3>
+            <p>Tidak ada masakan lain di dunia yang dengan sengaja dimasak hingga semua cairannya menguap seperti rendang. Proses 4-8 jam memasak dengan api kecil bukan hanya soal rasa — ini adalah teknik pengawetan alami yang jenius, menggunakan rempah-rempah sebagai antibakteri alami.</p>
+            <h3>4. Gohu Ikan Ternate — Sashimi Tropis</h3>
+            <p>Jauh sebelum sashimi Jepang dikenal dunia, masyarakat Ternate sudah menikmati gohu ikan — tuna segar yang dipotong dadu dan "dimasak" dengan perasan jeruk nipis, dilengkapi kemangi segar dan kenari cincang. Ini adalah bukti bahwa teknik memasak tanpa api adalah warisan kuliner Nusantara yang orisinal.</p>
+            <h3>5. Lalampa Minahasa — Ketan Dibakar dalam Daun</h3>
+            <p>Berbeda dari lemper Jawa yang dikukus, lalampa Minahasa dibakar langsung di atas bara api setelah dibungkus daun pisang. Proses pembakaran menciptakan aroma asap yang meresap ke dalam ketan dan isian cakalang, menghasilkan cita rasa smoky yang tidak bisa dicapai dengan cara memasak lain manapun.</p>
+            `
+        }
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+    const data = artikel[id];
+
+    if (data) {
+        document.title = `${data.judul} — RasaNusa`;
+        document.getElementById('artikel-content').innerHTML = `
+            <span class="wawasan-tag">${data.tag}</span>
+            <h1 class="artikel-judul">${data.judul}</h1>
+            <div class="artikel-body">${data.isi}</div>
+        `;
+    } else {
+        document.getElementById('artikel-content').innerHTML = `
+            <p>Artikel tidak ditemukan.</p>
+        `;
+    }
+    </script>
+</body>
+</html>
