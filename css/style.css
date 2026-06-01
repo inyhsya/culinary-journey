@@ -233,7 +233,7 @@ a {
     max-height: 90vh;
     overflow-y: auto;
     position: relative;
-    padding: 32px;
+    padding: 24px;
 }
 
 .modal-close {
@@ -283,7 +283,7 @@ a {
 
 .modal-foto-wrap img {
     width: 100%;
-    height: 200px;
+    height: 160px;
     object-fit: cover;
     border-radius: var(--radius-sm);
     background: var(--bg);
@@ -325,31 +325,42 @@ a {
 .modal-right {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.modal-section {
+    margin-bottom: 6px;
 }
 
 .modal-section h4 {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--primary);
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    margin-bottom: 6px;
+    margin-bottom: 2px;
 }
 
 .modal-section p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: var(--text-muted);
-    line-height: 1.6;
+    line-height: 1.45;
+    margin-bottom: 0;
 }
 
 .modal-course-tabs {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4px;
+    margin-bottom: 10px;
 }
 
 .course-tab {
+    flex: 1;
     padding: 6px 14px;
     border-radius: 99px;
     border: 1.5px solid var(--border);
@@ -359,6 +370,7 @@ a {
     cursor: pointer;
     color: var(--text-muted);
     transition: all 0.2s;
+    text-align: center;
 }
 
 .course-tab.active {
@@ -378,6 +390,7 @@ a {
     cursor: pointer;
     transition: background 0.2s, transform 0.2s;
     width: 100%;
+    margin-bottom: 8px;
 }
 
 .btn-tambahkan:hover {
@@ -447,7 +460,8 @@ a {
 
 /* PETA */
 #peta {
-    padding: 80px 0;
+    padding: 40px 0;
+    scroll-margin-top: 80px;
 }
 
 #peta h2 {
