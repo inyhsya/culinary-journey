@@ -33,7 +33,7 @@ const dataHidangan = {
                 deskripsi: "Mie tebal dengan kuah kari rempah yang kaya, disajikan dengan pilihan daging sapi, kambing, atau seafood.",
                 faktaUnik: "Mie Aceh mencerminkan pengaruh perdagangan Arab, India, dan Tionghoa yang masuk melalui pelabuhan Aceh berabad-abad lalu.",
                 bahan: "Mie tebal, cabai, kunyit, jintan, kapulaga, serai, protein pilihan, emping.",
-                foto: "assets/img/mie-aceh.jpg"
+                foto: "assets/img/mie-aceh.jpeg"
             }
         ],
         dessert: [
@@ -51,7 +51,7 @@ const dataHidangan = {
                 deskripsi: "Benjak-enjak adalah kue tradisional khas Lampung yang terbuat dari campuran beras ketan putih, santan, pisang (biasanya pisang ambon atau pisang raja) yang dihaluskan, dan garam.",
                 faktaUnik: "Benjak-enjak merupakan salah satu warisan kuliner Lampung yang hingga kini masih lestari. ",
                 bahan: "Beras Ketan Putih, Santan Kelapa, Pisang, Garam",
-                foto: "assets/img/benajak-enjak.jpeg"
+                foto: "assets/img/benjak-enjak.jpeg"
             }
         ]
     },
@@ -121,51 +121,51 @@ const dataHidangan = {
                 deskripsi: "Kulit tipis dari tepung beras berisi tumisan lobak dan ebi, dikukus lalu disiram minyak bawang putih.",
                 faktaUnik: "Chai kue lahir dari komunitas Tionghoa Hakka yang menetap di Pontianak sejak abad ke-18.",
                 bahan: "Tepung beras, lobak, ebi, bawang putih, sambal cabai.",
-                foto: "assets/img/chai-kue.jpg"
+                foto: "assets/img/choipan.jpg"
             },
             {
-                nama: "Bubur Pedas Sambas",
-                asal: "Sambas, Kalimantan Barat",
-                deskripsi: "Bubur berbahan dasar beras yang dicampur aneka sayuran dan rempah seperti serai, kunyit, dan daun kesum.",
-                faktaUnik: "'Pedas' di sini bukan berarti pedas cabai, melainkan 'kaya rempah' dalam bahasa Melayu Sambas.",
-                bahan: "Beras sangrai, pakis, kangkung, tauge, serai, kunyit, daun kesum.",
-                foto: "assets/img/bubur-pedas.jpg"
+                nama: "Pekasam atau Ikan Samu",
+                asal: "Kalimantan Selatan",
+                deskripsi: "Hidangan berbahan dasar ikan sungai kecil yang difermentasi. Ikan ini memiliki cita rasa asam-gurih yang tajam dengan tekstur daging yang lunak namun tetap padat.",
+                faktaUnik: "Lahir dari tradisi masyarakat suku Banjar, kuliner ini mencerminkan filosofi kesabaran dalam pengawetan dan rasa syukur atas kelimpahan sungai.",
+                bahan: "Ikan, Garam, Beras Sangrai",
+                foto: "assets/img/pekasam.jpeg"
             }
         ],
         mainCourse: [
             {
-                nama: "Nasi Bekepor",
-                asal: "Kutai Kartanegara, Kalimantan Timur",
-                deskripsi: "Nasi gurih warisan Kerajaan Kutai yang dimasak dengan daun salam, pandan, suwiran ikan asin, dan kemangi.",
-                faktaUnik: "Nasi bekepor dulunya eksklusif untuk keluarga kerajaan dan bangsawan Kutai — rakyat biasa dilarang memasaknya.",
-                bahan: "Nasi, daun salam, pandan, ikan asin, kemangi, jeruk nipis.",
-                foto: "assets/img/nasi-bekepor.jpg"
+                nama: "Daging Masak Habang",
+                asal: "Kalimantan Selatan",
+                deskripsi: "Hidangan olahan daging sapi dengan siraman bumbu merah kental yang sangat pekat dan ikonik.",
+                faktaUnik: "Masak Habang memuat filosofi kemewahan rempah dalam balutan warna merah yang bersahaja.",
+                bahan: "Daging Sapi, Cabai,Bawang Merah dan Putih, Jahe, Gula Merah, Kayu Manis",
+                foto: "assets/img/ayam-habang.jpeg"
             },
             {
-                nama: "Ayam Masak Habang",
-                asal: "Banjarmasin, Kalimantan Selatan",
-                deskripsi: "Ayam dimasak dengan bumbu merah kaya cabai yang menghasilkan kuah berwarna merah menyala.",
-                faktaUnik: "Warna merahnya yang mencolok dipercaya melambangkan keberanian dan semangat — bukan sekadar rasa pedas.",
-                bahan: "Ayam, cabai merah, bawang, lengkuas, serai, daun jeruk.",
-                foto: "assets/img/ayam-habang.jpg"
+                nama: "Soto Banjar",
+                asal: "Kalimantan Selatan",
+                deskripsi: "Soto khas suku Banjar yang sangat ikonik dengan kuah yang kaya rempah dan cenderung sedikit keruh karena penggunaan susu cair atau etek kental/telur bebek di dalam kuahnya.",
+                faktaUnik: "Soto Banjar mencerminkan akulturasi budaya yang kaya di sepanjang pelabuhan dagang Kalimantan Selatan, memadukan pengaruh rempah khas Timur Tengah dan Tionghoa (soun). ",
+                bahan: "Ayam, Kayu Manis, Cengkih, Kapulaga, Ketupat, Soun, Perkedel Kentang.",
+                foto: "assets/img/soto-banjar.jpeg"
             }
         ],
         dessert: [
             {
-                nama: "Pisang Gapit",
-                asal: "Samarinda, Kalimantan Timur",
-                deskripsi: "Pisang kepok matang yang dijepit dan dipanggang hingga karamelisasi, disajikan dengan saus gula merah-santan.",
-                faktaUnik: "'Gapit' berarti jepit dalam bahasa lokal. Pisang gapit adalah jajanan sore ikonik warga Samarinda.",
-                bahan: "Pisang kepok, santan, gula merah, garam.",
-                foto: "assets/img/pisang-gapit.jpg"
+                nama: "Sorbet Durian",
+                asal: "Kalimantan Timur",
+                deskripsi: "Sajian pencuci mulut mendinginkan yang menonjolkan kemurnian rasa dari buah durian hutan asli Kalimantan.",
+                faktaUnik: "Menyimpan filosofi kesabaran waktu yang bertemu dengan kesegaran modern. ",
+                bahan: "Daging Durian, Air, Gula Pasir, Jeruk Nipis",
+                foto: "assets/img/sorbet-durian.jpeg"
             },
             {
-                nama: "Amparan Tatak",
-                asal: "Banjarmasin, Kalimantan Selatan",
+                nama: "Bingke",
+                asal: "Kalimantan Barat",
                 deskripsi: "Kue tradisional Banjar dari tepung beras dan santan berlapis, disiram kuah santan kental.",
-                faktaUnik: "Amparan tatak selalu menjadi suguhan wajib dalam tradisi Aruh (pesta adat) masyarakat Banjar.",
-                bahan: "Tepung beras, santan, gula, pisang atau nangka.",
-                foto: "assets/img/amparan-tatak.jpg"
+                faktaUnik: "Kue Bingke merupakan kudapan legendaris dari Pontianak yang sangat melekat dengan budaya Melayu.",
+                bahan: "Tepung terigu, Telur, Santan, Daun Pandan",
+                foto: "assets/img/bingke.jpeg"
             }
         ]
     },
@@ -173,56 +173,56 @@ const dataHidangan = {
     sulawesi: {
         appetizer: [
             {
-                nama: "Jalangkote",
-                asal: "Makassar, Sulawesi Selatan",
-                deskripsi: "Mirip pastel, tapi kulitnya lebih tipis dan renyah, berisi sayuran dan sedikit bihun.",
-                faktaUnik: "Jalangkote adalah 'oleh-oleh wajib' jika seseorang pulang dari Makassar.",
-                bahan: "Tepung, margarin, kentang, wortel, bihun, bawang.",
+                nama: "Lalampa",
+                asal: "Sulawesi Selatan",
+                deskripsi: "Hidangan pembuka gurih yang terbuat dari beras ketan dengan isian ikan tongkol atau cakalang suwir yang dibumbui pedas.",
+                faktaUnik: "Meskipun sekilas penampilannya mirip dengan lemper khas Jawa, Lalampa memiliki karakteristik rasa yang jauh lebih tajam, gurih, dan pedas.",
+                bahan: "Beras Ketan, Ikan, Daun Pisang.",
                 foto: "assets/img/jalangkote.jpg"
             },
             {
-                nama: "Gohu Ikan",
-                asal: "Ternate, Maluku Utara / Sulawesi",
-                deskripsi: "Ikan tuna atau cakalang segar dipotong dadu, dilumuri jeruk nipis dan garam — tidak dimasak sama sekali.",
-                faktaUnik: "Gohu ikan adalah bukti bahwa teknik 'memasak tanpa api' sudah ada di Nusantara jauh sebelum istilah ceviche dikenal.",
-                bahan: "Tuna segar, jeruk nipis, garam, daun kemangi, kenari.",
-                foto: "assets/img/gohu-ikan.jpg"
+                nama: "Jalangkote,
+                asal: "Sulawesi Selatan",
+                deskripsi: "Kudapan pastri goreng legendaris khas Makassar yang diisi dengan campuran potongan wortel, kentang, tauge, soun, serta potongan telur rebus.",
+                faktaUnik: "Banyak orang kerap keliru menyamakan Jalangkote dengan kue pastel Jawa. Perbedaan mendasarnya terletak pada ketebalan kulitnya yang jauh lebih tipis dan cara penyajiannya.",
+                bahan: "Tepung Terigu, Wortel dan Kentang, Tauge, dan Soun.",
+                foto: "assets/img/lalampa.jpeg"
             }
         ],
         mainCourse: [
             {
                 nama: "Coto Makassar",
-                asal: "Makassar, Sulawesi Selatan",
+                asal: "Sulawesi Selatan",
                 deskripsi: "Sup daging dan jeroan sapi yang dimasak dengan 40 jenis bumbu lokal, kuahnya gurih dan pekat dari kacang tanah sangrai.",
                 faktaUnik: "Coto Makassar sudah ada sejak abad ke-16 sebagai hidangan istana Kerajaan Gowa.",
                 bahan: "Daging sapi, jeroan, kacang tanah sangrai, ketumbar, jintan, kemiri.",
                 foto: "assets/img/coto-makassar.jpeg"
             },
             {
-                nama: "Kapurung",
-                asal: "Luwu Raya, Sulawesi Selatan",
-                deskripsi: "Bola-bola sagu kenyal yang disajikan dalam kuah sayuran segar berisi jagung, bayam, dan ikan.",
-                faktaUnik: "Kapurung adalah makanan pokok suku Luwu yang mencerminkan kecerdasan bertahan hidup di hutan.",
-                bahan: "Sagu, jagung, bayam, kacang panjang, ikan, kecombrang.",
-                foto: "assets/img/kapurung.jpg"
+                nama: "Ayam dalam Buluh",
+                asal: "Sulawesi Utara",
+                deskripsi: "Hidangan kuliner khas masyarakat Minahasa berupa potongan daging ayam yang dibumbui secara masif dengan aneka rempah aromatik segar",
+                faktaUnik: "Teknik memasak ini memanfaatkan kelembapan dan uap internal dari dinding bambu hijau segar, mirip dengan filosofi memasak Ikan Pansuh di pedalaman Kalimantan.",
+                bahan: "Daging Ayam, Ruas Bambu, Daun Singkong",
+                foto: "assets/img/ayam-dalam-buluh.jpeg"
             }
         ],
         dessert: [
             {
-                nama: "Barongko",
-                asal: "Bone, Sulawesi Selatan",
-                deskripsi: "Pisang dihaluskan lalu dicampur santan, telur, dan gula, dibungkus daun pisang dan dikukus.",
-                faktaUnik: "Barongko dulunya adalah makanan eksklusif bangsawan Bugis dan sudah didaftarkan sebagai Warisan Budaya Takbenda Indonesia.",
-                bahan: "Pisang kepok, santan, telur, gula, daun pisang.",
-                foto: "assets/img/barongko.jpg"
-            },
-            {
                 nama: "Es Pisang Ijo",
-                asal: "Makassar, Sulawesi Selatan",
-                deskripsi: "Pisang raja dibalut adonan tepung berwarna hijau dari daun pandan, disajikan dengan bubur sumsum dan sirup merah.",
-                faktaUnik: "Es pisang ijo adalah minuman berbuka puasa paling dicari di Makassar setiap Ramadan.",
-                bahan: "Pisang raja, tepung beras, santan, air pandan, sirup merah, es serut.",
-                foto: "assets/img/pisang-ijo.jpg"
+                asal: "Sulawesi Selatan",
+                deskripsi: "Sajian pencuci mulut mendinginkan yang terdiri dari pisang raja matang dibalut adonan tepung kenyal berwarna hijau alami dari perasan daun suji.",
+                faktaUnik: "Bagi masyarakat Bugis-Makassar, balutan warna hijau pada pisang secara tradisional melambangkan kesuburan, kemakmuran, dan kedamaian hati. ",
+                bahan: "Pisang, santan, telur, Tepung Beras, Sirup Khas Sulawesi.",
+                foto: "assets/img/es-pisang-ijo.jpeg"
+            }
+            {
+                nama: "Klappertart",
+                asal: "Sulawesi Utara",
+                deskripsi: "Kue penutup (tart) bertekstur sangat lembut, creamy, dan lumer di mulut (soft custard) yang dipadukan dengan tekstur kenyal dari serutan daging kelapa muda. ",
+                faktaUnik: "Klappertart merupakan produk akulturasi budaya yang sangat kental antara tradisi kuliner lokal Manado dengan pengaruh kuliner era kolonial Belanda di masa lampau.",
+                bahan: "Daging Kelapa Muda, Susu, Tepung terigu, Kuning telur",
+                foto: "assets/img/klappertart.jpeg"
             }
         ]
     },
@@ -243,7 +243,7 @@ const dataHidangan = {
                 deskripsi: "Catemak Jagung adalah sup jagung khas Nusa Tenggara Timur yang dibuat dari jagung muda pipil, kacang tanah, kacang hijau, dan potongan labu.",
                 faktaUnik: "Masyarakat NTT sering menjadikan Catemak sebagai menu sarapan atau hidangan pembuka yang mengenyangkan.",
                 bahan: "Jagung Muda, Kacang Tanah, Kacang Hijau, Labu, Bawang Mwrah, Bawang Putih",
-                foto: "assets/img/rujak-pindang.jpg"
+                foto: "assets/img/catemak-jagung.jpeg"
             }
         ],
         mainCourse: [
@@ -253,7 +253,7 @@ const dataHidangan = {
                 deskripsi: "Ayam utuh diisi dan dilumuri bumbu Base Genep khas Bali, dibungkus daun pisang lalu dipanggang berjam-jam.",
                 faktaUnik: "Dalam proses memasak tradisional, ayam betutu dikubur dalam sekam padi yang membara selama 8–12 jam.",
                 bahan: "Ayam, 11 bumbu Bali (cabe, bawang, kunyit, jahe, lengkuas, serai, terasi, kemiri), daun pisang.",
-                foto: "assets/img/ayam-betutu.jpg"
+                foto: "assets/img/ayam-betutu.jpeg"
             },
             {
                 nama: "Ayam Taliwang",
