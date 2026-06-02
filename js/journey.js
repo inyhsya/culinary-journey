@@ -7,11 +7,11 @@ const dataHidangan = {
                 deskripsi: "Olahan ikan tenggiri dan tepung sagu yang digoreng, disajikan dengan kuah cuko asam-manis-pedas.",
                 faktaUnik: "Konon pempek lahir dari ide seorang penjual ikan keliling di abad ke-16 yang terinspirasi oleh masyarakat Tionghoa Palembang — namanya pun berasal dari panggilan 'apek' untuk pedagang Tionghoa tua.",
                 bahan: "Ikan tenggiri, tepung sagu, air, garam, telur. Kuah cuko: cuka, gula merah, cabai, bawang putih.",
-                foto: "assets/img/pempek.jpg"
+                foto: "assets/img/pempek.jpeg"
             },
             {
                 nama: "Naniura",
-                asal: "Sumatera Utara (Batak Toba)",
+                asal: "Sumatera Utara",
                 deskripsi: "Hidangan ikan mas 'mentah' yang direndam dalam air jeruk asam khas Batak hingga matang secara kimiawi tanpa dimasak.",
                 faktaUnik: "Dalam tradisi Batak, naniura dahulu hanya disajikan untuk raja dan kaum bangsawan sebagai tanda kehormatan tertinggi.",
                 bahan: "Ikan mas, jeruk jungga, andaliman, kemiri, bawang, kunyit, cabai.",
@@ -47,7 +47,7 @@ const dataHidangan = {
             },
             {
                 nama: "Lapek Bugih",
-                asal: "Sumatera Barat (Minangkabau)",
+                asal: "Minangkabau, Sumatera Barat",
                 deskripsi: "Kue tradisional dari tepung ketan yang dibungkus daun pisang berisi gula merah cair.",
                 faktaUnik: "'Lapek' berarti alas dalam bahasa Minang, merujuk pada daun pisang pembungkusnya. Selalu hadir dalam setiap perayaan adat Minang.",
                 bahan: "Tepung ketan, santan, gula merah, daun pisang.",
