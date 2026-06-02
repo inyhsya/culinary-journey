@@ -15,7 +15,7 @@ const dataHidangan = {
                 deskripsi: "Martabak Kubang adalah martabak khas Sumatera Barat yang berasal dari desa Kubang di Kota Payakumbuh. Terbuat dari adonan tepung yang diisi dengan telur, daun bawang, garam, merica, serta potongan daging sapi. ",
                 faktaUnik: "Martabak Kubang berbeda dengan martabak lain karena bumbu dan bahannya yang sangat tradisional.",
                 bahan: "Tepung terigu, Telur, Daging Sapi Cincang, Daun bawang, Kuah Kari.",
-                foto: "assets/img/naniura.jpg"
+                foto: "assets/img/martabak-kubang.jpeg"
             }
         ],
         mainCourse: [
@@ -38,20 +38,20 @@ const dataHidangan = {
         ],
         dessert: [
             {
-                nama: "Bika Ambon",
-                asal: "Medan, Sumatera Utara",
-                deskripsi: "Kue berpori-pori khas dengan tekstur kenyal-elastis dan rasa manis legit dari santan dan gula.",
-                faktaUnik: "Meski namanya 'Ambon', kue ini berasal dari Medan. Para ahli kuliner menduga nama ini berasal dari nama daerah atau pengolah pertamanya yang telah terlupakan.",
-                bahan: "Tepung tapioka, santan, telur, gula, ragi.",
-                foto: "assets/img/bika-ambon.jpg"
+                nama: "Lempok Durian",
+                asal: "Jambi",
+                deskripsi: "Lempok Durian adalah olahan buah durian khas Jambi yang dimasak lama dengan gula aren hingga mengental dan berwarna cokelat kehitaman.",
+                faktaUnik: "Lempok Durian memiliki daya tahan yang cukup lama, menjadikannya pilihan oleh-oleh yang praktis bagi wisatawan.",
+                bahan: "Daging Buah Durian, Gula Aren, Garam.",
+                foto: "assets/img/lempok-durian.jpeg"
             },
             {
-                nama: "Lapek Bugih",
-                asal: "Minangkabau, Sumatera Barat",
-                deskripsi: "Kue tradisional dari tepung ketan yang dibungkus daun pisang berisi gula merah cair.",
-                faktaUnik: "'Lapek' berarti alas dalam bahasa Minang, merujuk pada daun pisang pembungkusnya. Selalu hadir dalam setiap perayaan adat Minang.",
-                bahan: "Tepung ketan, santan, gula merah, daun pisang.",
-                foto: "assets/img/lapek-bugih.jpg"
+                nama: "Benjak Enjak",
+                asal: "Lampung",
+                deskripsi: "Benjak-enjak adalah kue tradisional khas Lampung yang terbuat dari campuran beras ketan putih, santan, pisang (biasanya pisang ambon atau pisang raja) yang dihaluskan, dan garam.",
+                faktaUnik: "Benjak-enjak merupakan salah satu warisan kuliner Lampung yang hingga kini masih lestari. ",
+                bahan: "Beras Ketan Putih, Santan Kelapa, Pisang, Garam",
+                foto: "assets/img/benajak-enjak.jpeg"
             }
         ]
     },
@@ -72,7 +72,7 @@ const dataHidangan = {
                 deskripsi: "Tempe iris tipis dibalut tepung berbumbu daun bawang, digoreng setengah matang — teksturnya lembek di dalam, sedikit renyah di luar.",
                 faktaUnik: "Tempe mendoan Banyumas sudah mendapat pengakuan sebagai Warisan Budaya Takbenda Indonesia (2021).",
                 bahan: "Tempe, tepung, daun bawang, ketumbar, kunyit, garam.",
-                foto: "assets/img/mendoan.jpg"
+                foto: "assets/img/tempe-mendoan.jpg"
             }
         ],
         mainCourse: [
@@ -82,7 +82,7 @@ const dataHidangan = {
                 deskripsi: "Nangka muda dimasak berjam-jam dengan santan dan gula merah hingga berwarna coklat manis.",
                 faktaUnik: "Gudeg Yogya berbeda dari gudeg Solo — versi Yogya lebih kering dan lebih manis, sedangkan versi Solo lebih basah.",
                 bahan: "Nangka muda, santan, gula merah, daun salam, serai, lengkuas.",
-                foto: "assets/img/gudeg.jpg"
+                foto: "assets/img/gudeg-surabaya.jpeg"
             },
             {
                 nama: "Rawon",
@@ -90,7 +90,7 @@ const dataHidangan = {
                 deskripsi: "Sup daging sapi berkuah hitam pekat yang warnanya berasal dari kluwek.",
                 faktaUnik: "Kluwek mengandung sianida dalam kondisi mentah. Masyarakat Jawa secara turun-temurun menemukan cara menetralkannya dengan fermentasi.",
                 bahan: "Daging sapi, kluwek, bawang, ketumbar, lengkuas, serai.",
-                foto: "assets/img/rawon.jpg"
+                foto: "assets/img/rawon-surabaya.jpg"
             }
         ],
         dessert: [
@@ -108,7 +108,7 @@ const dataHidangan = {
                 deskripsi: "Minuman sekaligus dessert berisi cendol hijau kenyal, santan segar, gula merah cair, dan es batu.",
                 faktaUnik: "Ada tradisi unik di Banjarnegara — pengantin pria harus berjualan dawet sebelum akad nikah, sementara pengantin wanita menjadi kasirnya.",
                 bahan: "Tepung beras, air pandan, santan, gula merah, es batu.",
-                foto: "assets/img/dawet.jpg"
+                foto: "assets/img/dawet-ayu.jpg"
             }
         ]
     },
@@ -196,7 +196,7 @@ const dataHidangan = {
                 deskripsi: "Sup daging dan jeroan sapi yang dimasak dengan 40 jenis bumbu lokal, kuahnya gurih dan pekat dari kacang tanah sangrai.",
                 faktaUnik: "Coto Makassar sudah ada sejak abad ke-16 sebagai hidangan istana Kerajaan Gowa.",
                 bahan: "Daging sapi, jeroan, kacang tanah sangrai, ketumbar, jintan, kemiri.",
-                foto: "assets/img/coto-makassar.jpg"
+                foto: "assets/img/coto-makassar.jpeg"
             },
             {
                 nama: "Kapurung",
@@ -235,14 +235,14 @@ const dataHidangan = {
                 deskripsi: "Daging ikan atau ayam cincang dicampur parutan kelapa dan bumbu Bali, dililitkan pada batang serai lalu dibakar.",
                 faktaUnik: "'Melilit' melambangkan persatuan dan keterikatan komunitas dalam budaya Bali.",
                 bahan: "Ikan/ayam cincang, kelapa parut, bumbu Bali, batang serai.",
-                foto: "assets/img/sate-lilit.jpg"
+                foto: "assets/img/sate-lilit.jpeg"
             },
             {
-                nama: "Rujak Kuah Pindang",
-                asal: "Bali",
-                deskripsi: "Buah segar disiram kuah dari rebusan ikan pindang yang diberi cabai, gula, dan terasi.",
-                faktaUnik: "Rujak kuah pindang adalah kuliner yang hanya bisa ditemukan di Bali — tidak ada versi yang sama di tempat lain di dunia.",
-                bahan: "Mangga muda, bengkoang, nanas, timun, ikan pindang, cabai, terasi.",
+                nama: "Catemak Jagung",
+                asal: "NTT",
+                deskripsi: "Catemak Jagung adalah sup jagung khas Nusa Tenggara Timur yang dibuat dari jagung muda pipil, kacang tanah, kacang hijau, dan potongan labu.",
+                faktaUnik: "Masyarakat NTT sering menjadikan Catemak sebagai menu sarapan atau hidangan pembuka yang mengenyangkan.",
+                bahan: "Jagung Muda, Kacang Tanah, Kacang Hijau, Labu, Bawang Mwrah, Bawang Putih",
                 foto: "assets/img/rujak-pindang.jpg"
             }
         ],
@@ -266,20 +266,20 @@ const dataHidangan = {
         ],
         dessert: [
             {
-                nama: "Jaje Laklak",
+                nama: "Jeje Batun Badil",
                 asal: "Bali",
-                deskripsi: "Kue dari tepung beras dan santan yang dimasak dalam cetakan bulat kecil di atas arang.",
-                faktaUnik: "Jaje laklak selalu hadir dalam setiap upacara Hindu Bali sebagai sesajen. Warna hijaunya dari daun suji adalah simbol kesuburan.",
-                bahan: "Tepung beras, santan, air suji, kelapa parut, gula aren.",
-                foto: "assets/img/jaje-laklak.jpg"
+                deskripsi: "Jaja Batun Bedil adalah kue tradisional Bali yang terbuat dari tepung beras ketan, berbentuk bulatan-bulatan kecil seperti batu atau peluru (dalam bahasa Bali, batun bedil berarti batu peluru).",
+                faktaUnik: "Nama Batun Bedil secara harfiah berarti batu peluru, merujuk pada bentuk bulatan-bulatannya yang mirip peluru atau batu kecil. ",
+                bahan: "Tepung beras, Tepung Tapioka, Air, kelapa parut, gula aren.",
+                foto: "assets/img/jeje-batun-badil.jpeg"
             },
             {
-                nama: "Pisang Rai",
-                asal: "Bali",
-                deskripsi: "Pisang segar dibalut adonan tepung beras tipis lalu direbus, kemudian digulingkan ke kelapa parut.",
-                faktaUnik: "Dalam bahasa Bali, 'rai' berarti 'muka/wajah' — menggambarkan tampilan pisang yang 'berwajah putih' setelah dibalut tepung.",
-                bahan: "Pisang, tepung beras, santan, kelapa parut, garam.",
-                foto: "assets/img/pisang-rai.jpg"
+                nama: "Karake",
+                asal: "NTB",
+                deskripsi: "Kue Karake adalah kue tradisional khas NTB yang terbuat dari tepung ketan dengan tekstur kenyal manis, mirip dengan jenang atau dodol.",
+                faktaUnik: "Bentuk kue Karake yang memiliki tiga tonjolan ini jarang ditemukan pada kue pada umumnya, menjadikannya salah satu kue tradisional dengan bentuk paling unik di Indonesia.",
+                bahan: "Tepung Ketan, Santan Kelapa, Gula Pasir, Garam, Vanili, Kulit Jagung",
+                foto: "assets/img/kue-karake.jpeg"
             }
         ]
     },
@@ -292,7 +292,7 @@ const dataHidangan = {
                 deskripsi: "Mirip lemper Jawa, tapi isinya ikan cakalang berbumbu rempah, dibungkus daun pisang lalu dibakar.",
                 faktaUnik: "Yang membedakannya dari lemper: dibakar langsung di atas bara api, sehingga aroma asap dan daun pisang meresap ke dalam ketan.",
                 bahan: "Ketan, cakalang suwir, cabai, bawang, serai, daun pisang.",
-                foto: "assets/img/lalampa.jpg"
+                foto: "assets/img/lalampa.jpeg"
             },
             {
                 nama: "Kohu-Kohu",
@@ -300,7 +300,7 @@ const dataHidangan = {
                 deskripsi: "Salad tradisional Maluku dari kacang panjang, tauge, mentimun, kemangi, kelapa parut, dan ikan cakalang suwir.",
                 faktaUnik: "Di Ambon, hidangan ini adalah menu sarapan wajib — memakannya dipercaya memberi tenaga untuk bekerja seharian.",
                 bahan: "Kacang panjang, tauge, timun, kemangi, kelapa parut, cakalang, jeruk nipis.",
-                foto: "assets/img/kohu-kohu.jpg"
+                foto: "assets/img/kohu-kohu.jpeg"
             }
         ],
         mainCourse: [
@@ -310,7 +310,7 @@ const dataHidangan = {
                 deskripsi: "Bubur sagu bertekstur kenyal-lengket yang disajikan dengan kuah ikan berbumbu kunyit dan serai.",
                 faktaUnik: "Papeda tidak dikunyah — melainkan ditelan langsung. Makan papeda bersama keluarga adalah ritual sosial yang sakral di Papua.",
                 bahan: "Tepung sagu, ikan, kunyit, serai, bawang, jahe, asam.",
-                foto: "assets/img/papeda.jpg"
+                foto: "assets/img/papeda-ikan-kuah-kuning.jpg"
             },
             {
                 nama: "Ikan Kuah Pala Banda",
@@ -318,7 +318,7 @@ const dataHidangan = {
                 deskripsi: "Ikan kakap dimasak dalam kuah rempah pala yang segar-pedas khas Kepulauan Banda.",
                 faktaUnik: "Dulu hidangan ini hanya disajikan untuk pejabat VOC Belanda — karena pala Banda adalah rempah paling mahal di dunia pada abad ke-17.",
                 bahan: "Ikan kakap, buah pala muda, bawang, cabai, kunyit, serai, asam jawa.",
-                foto: "assets/img/ikan-pala.jpg"
+                foto: "assets/img/ikan-kuah-pala-banda.jpg"
             }
         ],
         dessert: [
@@ -328,7 +328,7 @@ const dataHidangan = {
                 deskripsi: "Daging buah pala diiris tipis, diproses dengan gula hingga menjadi manisan kering bertabur gula pasir.",
                 faktaUnik: "Manisan pala adalah cara masyarakat Banda memanfaatkan seluruh bagian buah pala yang berharga, termasuk dagingnya yang biasanya dibuang.",
                 bahan: "Buah pala, gula pasir, air garam, air kapur sirih.",
-                foto: "assets/img/manisan-pala.jpg"
+                foto: "assets/img/panisan-pala.jpg"
             },
             {
                 nama: "Bubur Sagu Mutiara",
@@ -336,7 +336,7 @@ const dataHidangan = {
                 deskripsi: "Sagu mutiara berwarna-warni dimasak dengan santan, kayu manis, daun pandan, dan gula merah.",
                 faktaUnik: "Bubur ne adalah makanan yang selalu muncul dalam perayaan Islam dan budaya lokal Maluku secara bersamaan.",
                 bahan: "Sagu mutiara, santan, gula merah, kayu manis, pandan.",
-                foto: "assets/img/bubur-sagu.jpg"
+                foto: "assets/img/bubur-ne.jpg"
             }
         ]
     }
