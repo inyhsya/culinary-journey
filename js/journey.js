@@ -181,7 +181,7 @@ const dataHidangan = {
                 foto: "assets/img/jalangkote.jpg"
             },
             {
-                nama: "Jalangkote,
+                nama: "Jalangkote",
                 asal: "Sulawesi Selatan",
                 deskripsi: "Kudapan pastri goreng legendaris khas Makassar yang diisi dengan campuran potongan wortel, kentang, tauge, soun, serta potongan telur rebus.",
                 faktaUnik: "Banyak orang kerap keliru menyamakan Jalangkote dengan kue pastel Jawa. Perbedaan mendasarnya terletak pada ketebalan kulitnya yang jauh lebih tipis dan cara penyajiannya.",
@@ -215,7 +215,7 @@ const dataHidangan = {
                 faktaUnik: "Bagi masyarakat Bugis-Makassar, balutan warna hijau pada pisang secara tradisional melambangkan kesuburan, kemakmuran, dan kedamaian hati. ",
                 bahan: "Pisang, santan, telur, Tepung Beras, Sirup Khas Sulawesi.",
                 foto: "assets/img/es-pisang-ijo.jpeg"
-            }
+            },
             {
                 nama: "Klappertart",
                 asal: "Sulawesi Utara",
