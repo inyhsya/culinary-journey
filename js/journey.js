@@ -25,7 +25,7 @@ const dataHidangan = {
                 deskripsi: "Daging sapi dimasak perlahan berjam-jam dengan santan dan lebih dari 40 bumbu rempah hingga kuah mengering dan bumbu meresap sempurna.",
                 faktaUnik: "Teknik memasak rendang sengaja mengeringkan kuah karena dulunya berfungsi sebagai bekal perjalanan jauh — rendang kering bisa tahan berminggu-minggu tanpa kulkas.",
                 bahan: "Daging sapi, santan kental, cabai merah, serai, lengkuas, kunyit, jahe, bawang.",
-                foto: "assets/img/rendang.jpg"
+                foto: "assets/img/rendang.jpeg"
             },
             {
                 nama: "Mie Aceh",
