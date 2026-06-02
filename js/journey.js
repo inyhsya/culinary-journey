@@ -178,7 +178,7 @@ const dataHidangan = {
                 deskripsi: "Hidangan pembuka gurih yang terbuat dari beras ketan dengan isian ikan tongkol atau cakalang suwir yang dibumbui pedas.",
                 faktaUnik: "Meskipun sekilas penampilannya mirip dengan lemper khas Jawa, Lalampa memiliki karakteristik rasa yang jauh lebih tajam, gurih, dan pedas.",
                 bahan: "Beras Ketan, Ikan, Daun Pisang.",
-                foto: "assets/img/jalangkote.jpg"
+                foto: "assets/img/lalampa-.jpeg"
             },
             {
                 nama: "Jalangkote",
@@ -186,7 +186,7 @@ const dataHidangan = {
                 deskripsi: "Kudapan pastri goreng legendaris khas Makassar yang diisi dengan campuran potongan wortel, kentang, tauge, soun, serta potongan telur rebus.",
                 faktaUnik: "Banyak orang kerap keliru menyamakan Jalangkote dengan kue pastel Jawa. Perbedaan mendasarnya terletak pada ketebalan kulitnya yang jauh lebih tipis dan cara penyajiannya.",
                 bahan: "Tepung Terigu, Wortel dan Kentang, Tauge, dan Soun.",
-                foto: "assets/img/lalampa.jpeg"
+                foto: "assets/img/jalangkote.jpeg"
             }
         ],
         mainCourse: [
@@ -242,8 +242,8 @@ const dataHidangan = {
                 asal: "NTT",
                 deskripsi: "Catemak Jagung adalah sup jagung khas Nusa Tenggara Timur yang dibuat dari jagung muda pipil, kacang tanah, kacang hijau, dan potongan labu.",
                 faktaUnik: "Masyarakat NTT sering menjadikan Catemak sebagai menu sarapan atau hidangan pembuka yang mengenyangkan.",
-                bahan: "Jagung Muda, Kacang Tanah, Kacang Hijau, Labu, Bawang Mwrah, Bawang Putih",
-                foto: "assets/img/catemak-jagung.jpeg"
+                bahan: "Jagung Muda, Kacang Tanah, Kacang Hijau, Labu, Bawang Merah, Bawang Putih",
+                foto: "assets/img/cetemak-jagung.jpeg"
             }
         ],
         mainCourse: [
