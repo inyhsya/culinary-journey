@@ -108,7 +108,7 @@ a {
 
 /* HERO */
 #hero {
-    padding: 140px 0 120px;
+    padding: 160px 0 160px;
     min-height: 100vh;
     position: relative;
     overflow: hidden;
@@ -462,18 +462,18 @@ a {
 /* PETA */
 #peta {
     padding: 40px 0;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 250px;
 }
 
 #peta h2 {
     font-size: 2rem;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .section-sub {
     color: var(--text-muted);
     font-style: italic;
-    margin-bottom: 32px;
+    margin-bottom: 6px;
 }
 
 #peta-container {
