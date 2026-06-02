@@ -10,11 +10,11 @@ const dataHidangan = {
                 foto: "assets/img/pempek.jpeg"
             },
             {
-                nama: "Naniura",
-                asal: "Sumatera Utara",
-                deskripsi: "Hidangan ikan mas 'mentah' yang direndam dalam air jeruk asam khas Batak hingga matang secara kimiawi tanpa dimasak.",
-                faktaUnik: "Dalam tradisi Batak, naniura dahulu hanya disajikan untuk raja dan kaum bangsawan sebagai tanda kehormatan tertinggi.",
-                bahan: "Ikan mas, jeruk jungga, andaliman, kemiri, bawang, kunyit, cabai.",
+                nama: "Martabak Kubang",
+                asal: "Sumatera Barat",
+                deskripsi: "Martabak Kubang adalah martabak khas Sumatera Barat yang berasal dari desa Kubang di Kota Payakumbuh. Terbuat dari adonan tepung yang diisi dengan telur, daun bawang, garam, merica, serta potongan daging sapi. ",
+                faktaUnik: "Martabak Kubang berbeda dengan martabak lain karena bumbu dan bahannya yang sangat tradisional.",
+                bahan: "Tepung terigu, Telur, Daging Sapi Cincang, Daun bawang, Kuah Kari.",
                 foto: "assets/img/naniura.jpg"
             }
         ],
